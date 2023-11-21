@@ -19,10 +19,9 @@ Certifique-se de ter o Flutter instalado.
     ![Screenshot 1](screenshot/const.png)
 
 2. Edite o arquivo
-
-  Dentro do arquivo, você encontrará constantes definindo configurações do aplicativo. 
-
-  Devemos atribuir o IP a constante "baseUrl".
+    ```bash
+    Dentro do arquivo, você encontrará constantes definindo configurações do aplicativo. 
+    ```
 
   ![Screenshot 2](screenshot/ip.png)
 
