@@ -1,5 +1,5 @@
 class AppConstants {
-  static const String baseUrl = "http://192.168.0.109:8000/";
+  static const String baseUrl = "SEU IP";
 
   static const String getUserList = "api/users/list";
 
