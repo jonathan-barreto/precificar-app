@@ -61,7 +61,18 @@ fvm flutter pub get
 
 ### Configurando o Endereço IP na BaseURL
 
-Navegue até o arquivo app_constants.dart localizado em lib/app/core/utils/constants/app_constants.dart no diretório do seu projeto. Abra o arquivo usando seu editor de código preferido.
+Navegue até o arquivo app_constants.dart localizado em lib/app/core/utils/constants/app_constants.dart no diretório do seu projeto.
 
+![Screenshot 1](screenshot/const.png)
 
+![Screenshot 2](screenshot/ip.png)
 
+### Compilando e Iniciando o Projeto
+
+Execute o seguinte comando para compilar e iniciar o projeto:
+
+```bash
+fvm flutter run
+```
+
+Isso iniciará o processo de compilação e instalação do aplicativo no emulador ou dispositivo conectado.
