@@ -11,4 +11,4 @@ Certifique-se de ter o Flutter instalado.
 
 2. Adicionar IP
 
-  ![Screenshot 1](screenshots/const.png)
+  ![Screenshot 1](screenshot/const.png)
