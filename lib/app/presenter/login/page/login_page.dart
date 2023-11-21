@@ -45,18 +45,27 @@ class _LoginPageState extends State<LoginPage> {
                     ElevatedButton(
                       style: const ButtonStyle(
                         fixedSize: MaterialStatePropertyAll(
-                          Size(265, 55),
+                          Size(310, 60),
                         ),
                       ),
                       onPressed: () {
                         if (userTextController.value.text.isNotEmpty) {
-                          Navigator.pushReplacementNamed(
-                            context,
-                            '/initial',
-                            arguments: {
-                              'userId': userTextController.value.text,
-                            },
-                          );
+                          try {
+                            final int userId = int.parse(
+                              userTextController.value.text,
+                            );
+                            if (userId >= 0 && userId <= 10) {
+                              Navigator.pushReplacementNamed(
+                                context,
+                                '/initial',
+                                arguments: {
+                                  'userId': userId,
+                                },
+                              );
+                            }
+                          } catch (e) {
+                            return;
+                          }
                         }
                       },
                       child: const Text(

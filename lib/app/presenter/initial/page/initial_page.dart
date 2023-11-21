@@ -38,7 +38,7 @@ class _InitialPageState extends State<InitialPage> {
 
     arguments = ModalRoute.of(context)!.settings.arguments;
 
-    final int userId = int.parse(arguments["userId"]);
+    final int userId = arguments["userId"];
 
     widgets = [
       HomePage(userId: userId),
