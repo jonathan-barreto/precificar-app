@@ -9,6 +9,19 @@ Certifique-se de ter o Flutter instalado.
     flutter pub get
     ```
 
-2. Adicionar IP
+## Adicionar IP
+
+1. Localize o arquivo
+
+  Navegue até a pasta onde o arquivo app_constantes.dart está localizado.
 
   ![Screenshot 1](screenshot/const.png)
+
+2. Edite o arquivo
+
+  Dentro do arquivo, você provavelmente encontrará constantes definindo configurações do aplicativo. 
+
+  Devemos atribuir o IP a constante "baseUrl".
+
+  ![Screenshot 2](screenshot/ip.png)
+
