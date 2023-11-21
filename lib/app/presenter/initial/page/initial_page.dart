@@ -5,6 +5,7 @@ import 'package:precificar_app/app/presenter/home/page/home_page.dart';
 import 'package:precificar_app/app/presenter/initial/state/initial_state.dart';
 import 'package:precificar_app/app/presenter/initial/store/initial_store.dart';
 import 'package:precificar_app/app/presenter/login/page/login_page.dart';
+import 'package:precificar_app/app/presenter/person/page/person_page.dart';
 import 'package:precificar_app/app/presenter/search/page/search_page.dart';
 import 'package:precificar_app/init.dart';
 
@@ -42,11 +43,7 @@ class _InitialPageState extends State<InitialPage> {
     widgets = [
       HomePage(userId: userId),
       SearchPage(idUser: userId),
-      Container(
-        width: 100,
-        height: 100,
-        color: Colors.redAccent,
-      ),
+      const PersonPage(),
     ];
   }
 
